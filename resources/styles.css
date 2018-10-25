@@ -1,0 +1,52 @@
+body{
+  background-color: lightgray;
+}
+
+/* Add some background color to the webpage*/
+
+h1 {
+  font-family:Helvetica;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  color: black;
+  background-image: url("pikachu-banner.png");
+}
+/*The main header, we added a pikachu banner for background image, and added some font properties */
+
+img{
+  width:300px;
+  height:300px;
+  margin-left: 20px;
+  opacity: 0.5;
+}
+/* Give each image a certain width and height and a margin -left property, as well as
+some opacity */
+img:hover{
+  opacity: 1;
+}
+
+h2{
+  font-family:Helvetica;
+  font-size:32px;
+  font-weight:bold;
+  color:white;
+  text-align: center;
+}
+span{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+/*Give each span attention with price */
+.brushes h2{
+  background-color:mediumspringgreen;
+}
+
+.frames h2{
+  background-color:lightcoral;
+}
+
+.paint h2{
+  background-color:skyblue;
+}
